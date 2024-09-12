@@ -20,6 +20,7 @@ public class Pedido {
             System.out.println("Item " + item.getNome() + " não está disponível em estoque.");
         }
     }
+    
 
     public void definirPagamento(Pagamento pagamento) {
         this.pagamento = pagamento;
